@@ -8,7 +8,22 @@ An open API for [UW Course Catalog](http://www.washington.edu/students/crscat/).
 Start
 =====
 
+	$ git clone https://github.com/karan/UW-OpenData.git
+	$ cd UW-OpenData
+    $ pip install -r requirements.txt
+    ...
     $ python app.py
+
+Deploying on Heroku
+=======
+
+- Install [Heroku Toolbelt](https://toolbelt.heroku.com/)
+- `$ heroku login`
+- `$ foreman start` to run the API server locally
+- `$ heroku create` will create a new app in your account
+- `$ git push heroku master` will deploy the API to the app
+
+More detailed instruction are [available at Heroku](https://devcenter.heroku.com/articles/getting-started-with-python).
 
 Usage
 ==========
