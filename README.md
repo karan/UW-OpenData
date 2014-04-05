@@ -40,16 +40,17 @@ Returns all courses for the requested code.
     $ curl -i http://localhost:5000/cse
 
 
-![](https://blockchain.info/Resources/buttons/donate_64.png)
-=============
+Donations
+========
 
-If UW Open Data has helped you in any way, and you'd like to help the developer, please consider donating.
+If *UW OpenData* has helped you in any way, and you'd like to help the developer, please consider donating.
 
 **- BTC: [19dLDL4ax7xRmMiGDAbkizh6WA6Yei2zP5](http://i.imgur.com/bAQgKLN.png)**
 
+**- Gittip: [https://www.gittip.com/karan/](https://www.gittip.com/karan/)**
+
 **- Flattr: [https://flattr.com/profile/thekarangoel](https://flattr.com/profile/thekarangoel)**
 
-**- Dogecoin: DGJxQkPqfxGkPYazHdPpAfatyagpDdG4qJ**
 
 Contribute
 ========
