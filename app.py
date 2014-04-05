@@ -39,7 +39,7 @@ cache = defaultdict(
 }
 '''
 
-TTL = 30 * 24 * 60 *60 # 30 days
+TTL = 30 * 24 * 60 * 60 # 30 days
 
 def sanitize(ps):
     new_ps = []
@@ -57,7 +57,7 @@ def get_result(code):
     
     code = code.lower().strip()
     
-    if code in cache.keys() and cache[code]['time'] + timeout < time.time():
+    if code in cache.keys() and cache[code]['time'] + TTL > time.time():
         return jsonify(cache[code]['catalog'])
     
     BASE_URL = "http://www.washington.edu/students/crscat/%s.html" % code
